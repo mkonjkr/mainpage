@@ -18,6 +18,7 @@ const background = (idx) => {
         
         shadow_txt[idx] = list[idx].innerText;
         app.draw(shadow_txt[idx]);
+        
     };
 
     list[idx].onmouseout = () => {
