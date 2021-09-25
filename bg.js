@@ -4,7 +4,6 @@ export class App {
     this.ctx = this.canvas.getContext("2d");
     document.body.appendChild(this.canvas);
 
-
     window.addEventListener("resize", this.resize.bind(this), false);
 
     this.resize();
@@ -24,10 +23,10 @@ export class App {
 
   draw(text) {
     this.ctx.fillStyle = "#333";
-    this.ctx.globalAlpha = 0.3;
+    this.ctx.globalAlpha = 0.2;
     this.ctx.font = "500px Poppins";
-    /* this.ctx.textAlign = center; */
-    this.ctx.fillText(text, this.stageWidth / 2.9, this.stageHeigt /1.5, this.stageHeigt / 2);
+    this.ctx.fillText(text, this.stageWidth / 4, this.stageHeigt /1.4, this.stageWidth / 2);
+    
     console.log(text);
   }
 }
