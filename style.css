@@ -77,7 +77,6 @@ ul li a:before
 }
 ul li a:hover:before
 {
-  
   content: attr(data-text);
   opacity: 1;
   left: 50%;
