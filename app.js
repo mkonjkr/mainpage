@@ -1,7 +1,7 @@
 import {App} from './bg.js';
 
 const COLOR = ['#81ecec', '#ff7675', '#a29bfe', '#ffeaa7']
-const list = document.querySelectorAll('.main_menu');
+const list = document.querySelectorAll('li>a');
 const shadow_txt = [];
 const app = new App();
 

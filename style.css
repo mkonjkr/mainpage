@@ -16,7 +16,7 @@ canvas {
 
 body
 {
-    width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,6 @@ ul li a:after
   position: absolute;
   top: 50%;
   left: -400%;
-  /* transform: translate(50%,-50%); */
   display: flex;
   justify-content: center;
   align-items: center;
